@@ -21,7 +21,7 @@
 
 
 # Демо
-https://kirpinev.github.io/test/
+https://kirpinev.github.io/mesto/
 
 # Установка
 
