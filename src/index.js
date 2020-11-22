@@ -17,8 +17,8 @@ import PopupPlace from "./modules/popupPlace";
 //url сервера
 const serverUrl =
   NODE_ENV === "development"
-    ? "http://praktikum.tk/cohort6"
-    : "https://praktikum.tk/cohort6";
+    ? "http://nomoreparties.co/cohort6"
+    : "https://nomoreparties.co/cohort6";
 
 //Апи
 const api = new Api({
