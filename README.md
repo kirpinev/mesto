@@ -3,12 +3,13 @@
 Сервис, где люди делятся фотографиями интересных мест
 
 # В работе использовались:
-- HTML 
-- CSS 
-- JS(ES6)
-- БЭМ
-- API
+- React/Redux
+- Redux-Form
+- Redux-Thunk
+- TS
 - Webpack
+- API
+- Docker
 
 # Сейчас можно:
 - редактировать профиль
@@ -16,12 +17,12 @@
 - удалять карточки
 - ставить лайки
 - открывать фотографии на весь экран
-- валидация форм при помощи JS и HTML
+- валидация форм при помощи JS
 
 
 
 # Демо
-https://kirpinev.github.io/mesto/
+https://app-mesto.herokuapp.com/
 
 # Установка
 
@@ -30,7 +31,7 @@ https://kirpinev.github.io/mesto/
 Скопируйте проект на компьютер:
 
 ```
-git clone https://github.com/kirpinev/test.git
+git clone https://github.com/kirpinev/mesto-react.git
 ```
 
 Установите зависимости:
@@ -44,17 +45,11 @@ npm install
 Для локальной разработки с поднятием сервера используйте:
 
 ```
-npm run dev
+npm start
 ```
 
 Для сборки версии в продакшен:
 
 ```
 npm run build
-```
-
-Для деплоя на сервисе GitHub Pages используйте:
-
-```
-npm run deploy
 ```
